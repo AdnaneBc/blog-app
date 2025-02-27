@@ -6,7 +6,11 @@ const FeaturedPosts = () => {
     <div className="flex flex-col gap-8 mt-8 lg:flex-row">
       <div className="flex flex-col w-full gap-4 lg:w-1/2">
         {/* Image */}
-        <Image src="featured1.jpeg" className="object-cover rounded-3xl" />
+        <Image
+          src="featured1.jpeg"
+          className="object-cover rounded-3xl"
+          width="895"
+        />
         {/* Detail */}
         <div className="flex items-center gap-4">
           <h1 className="font-semibold lg:text-lg">01.</h1>
@@ -29,10 +33,13 @@ const FeaturedPosts = () => {
       <div className="flex flex-col w-full gap-4 lg:w-1/2">
         {/* Second */}
         <div className="flex justify-between gap-4 lg:h-1/3">
-          <Image
-            className="object-cover w-1/3 rounded-3xl aspect-video"
-            src="featured2.jpeg"
-          />
+          <div className="w-1/3 aspect-video">
+            <Image
+              className="object-cover w-full h-full rounded-3xl"
+              src="featured2.jpeg"
+              width="298"
+            />
+          </div>
           {/* details and title */}
           <div className="w-2/3">
             {/* details */}
@@ -52,10 +59,13 @@ const FeaturedPosts = () => {
         </div>
         {/* Third */}
         <div className="flex justify-between gap-4 lg:h-1/3">
-          <Image
-            className="object-cover w-1/3 rounded-3xl aspect-video"
-            src="featured3.jpeg"
-          />
+          <div className="w-1/3 aspect-video">
+            <Image
+              className="object-cover w-full h-full rounded-3xl"
+              src="featured3.jpeg"
+              width="298"
+            />
+          </div>
           {/* details and title */}
           <div className="w-2/3">
             {/* details */}
@@ -75,10 +85,13 @@ const FeaturedPosts = () => {
         </div>
         {/* Fourth */}
         <div className="flex justify-between gap-4 lg:h-1/3">
-          <Image
-            className="object-cover w-1/3 rounded-3xl aspect-video"
-            src="featured4.jpeg"
-          />
+          <div className="w-1/3 aspect-video">
+            <Image
+              className="object-cover w-full h-full rounded-3xl"
+              src="featured4.jpeg"
+              width="298"
+            />
+          </div>
           {/* details and title */}
           <div className="w-2/3">
             {/* details */}

@@ -5,7 +5,7 @@ const PostListItem = () => {
   return (
     <div className="flex flex-col gap-8 xl:flex-row">
       <div className="md:hidden xl:block xl:w-1/3 ">
-        <Image src="postImg.jpeg" className="object-cover rounded-2xl " />
+        <Image src="postImg.jpeg" className="object-cover rounded-2xl " width="735"/>
       </div>
       <div className="flex flex-col gap-4 xl:w-2/3">
         <Link className="text-4xl font-semibold text-gray-800" to="/slug">

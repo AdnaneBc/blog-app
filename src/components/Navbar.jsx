@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
         {/* MOBILE LINK LIST\ */}
         <div
-          className={`absolute font-medium flex items-center justify-center w-full h-screen flex-col top-16 gap-4 ${
+          className={` bg-gray-100 absolute font-medium flex items-center justify-center w-full h-screen flex-col top-16 gap-4 ${
             open ? "-right-0" : "-right-full"
           } transition-all duration-300`}
         >
